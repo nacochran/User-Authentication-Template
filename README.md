@@ -22,7 +22,7 @@ PG_DATABASE="secrets"
 PG_PASSWORD="password for your database"
 PG_PORT="5432"
 </pre>
-Note that you can choose whatever key you would like for SESSION_SECRET, that is just usedas the base for the Bcrypt hashing algorithm.
+Note that you can choose whatever key you would like for SESSION_SECRET, which is just used as the base for the Bcrypt hashing algorithm.
 
 ### 4. Run application
 Use `node app.js` or `nodemon app.js` to run your project.
